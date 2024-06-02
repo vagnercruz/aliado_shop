@@ -50,6 +50,13 @@ gem "bootsnap", require: false
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ]
+  gem "awesome_print" # Ajustes no no print do console
+  gem "dotenv-rails" # Trbalhar com variáveis de ambiente
+  gem "factory_bot_rails" # Fabricação de Dados
+  gem "faker" # Criar dados aleatórios
+  gem "pry-rails" # Criação de breakpoints
+  gem "rspec-rails" # Testes
+  gem "rubocop" # Analisador de erros e boas práticas no código
 end
 
 group :development do
@@ -67,4 +74,9 @@ group :test do
   # Use system testing [https://guides.rubyonrails.org/testing.html#system-testing]
   gem "capybara"
   gem "selenium-webdriver"
+  gem "webdrivers"
+  gem "database_cleaner" # Limpeza no banco de dados
+  gem "shoulda-matchers" # Sintaxe facilitada de testes
+  gem "simplecov" # Análise de testes do código
+  gem "vcr" # Simulação de requisições
 end

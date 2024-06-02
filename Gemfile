@@ -51,7 +51,7 @@ group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri windows ]
   gem "awesome_print" # Ajustes no no print do console
-  gem "dotenv-rails" # Trbalhar com variáveis de ambiente
+  gem 'dotenv' # Trbalhar com variáveis de ambiente
   gem "factory_bot_rails" # Fabricação de Dados
   gem "faker" # Criar dados aleatórios
   gem "pry-rails" # Criação de breakpoints

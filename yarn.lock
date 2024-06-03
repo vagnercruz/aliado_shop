@@ -28,6 +28,11 @@
   resolved "https://registry.yarnpkg.com/@popperjs/core/-/core-2.11.8.tgz#6b79032e760a0899cd4204710beede972a3a185f"
   integrity sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==
 
+"@rails/ujs@^7.0.8-3":
+  version "7.0.8-3"
+  resolved "https://registry.yarnpkg.com/@rails/ujs/-/ujs-7.0.8-3.tgz#21aa047ff1b9699a2c3256d0268e043ff9e93ba7"
+  integrity sha512-ueAH8KPTOigug9ZNgFGCTkk0qpXbVHh1v80g/dDmLILvLGOzxn6i4xQbGnLc/NkghpzA9+T5Ip6f95rFlcZeBA==
+
 "@sindresorhus/merge-streams@^2.1.0":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@sindresorhus/merge-streams/-/merge-streams-2.3.0.tgz#719df7fb41766bc143369eaa0dd56d8dc87c9958"
